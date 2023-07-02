@@ -5,7 +5,7 @@
 
 ## Synopsis
 
-DiWakeCyl is a set of PYTHON scripts that provide a toolkit to compute the Green's functions associated with electromagnetic wakefield produced in an axisymmetric dielectric lined waveguide. The present version of the code used is based on the formalism described in [![K.-Y. Ng, Phys. Rev. D42, 1819 (1990)]https://journals.aps.org/prd/abstract/10.1103/PhysRevD.42.1819]. 
+DiWakeCyl is a set of PYTHON scripts that provide a toolkit to compute the Green's functions associated with electromagnetic wakefield produced in an axisymmetric dielectric lined waveguide. The present version of the code used is based on the formalism described in [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.42.1819]. 
 
 ## Code Example
 

@@ -5,17 +5,17 @@
 
 ## Synopsis
 
-DiWakeCyl is a set of PYTHON scripts that provide a toolkit to compute the Green's functions associated with electromagnetic wakefield produced in an axi-symmetric dielectric lined waveguide.The present version of the code used is based on the formalism described in [K.-Y. Ng, Phys. Rev. D42, 1819 (1990)]. 
+DiWakeCyl is a set of PYTHON scripts that provide a toolkit to compute the Green's functions associated with electromagnetic wakefield produced in an axisymmetric dielectric lined waveguide. The present version of the code used is based on the formalism described in [![K.-Y. Ng, Phys. Rev. D42, 1819 (1990)]https://journals.aps.org/prd/abstract/10.1103/PhysRevD.42.1819]. 
 
 ## Code Example
 
-The simple implementation in ```test_Ng_long.py``` and ```test_Ng_trans.py``` demonstrate the use of the code to reproduce the wakefield computed in the paper [M Rosing and W. Gai, et al., Phys. Rev. D42, 1829 (1990)].  In addition these two codes compare the computed Green's functions with the ones generated from a trusted commercial program. 
+The simple implementation in ```test_Ng_long.py``` and ```test_Ng_trans.py``` demonstrates the use of the code to reproduce the wakefield computed in the paper [M Rosing and W. Gai, et al., Phys. Rev. D42, 1829 (1990)].  In addition, these two codes compare the computed Green's functions with the ones generated from a trusted commercial program. 
 
 The script ``` MakeWake4Eleg.py``` generate a Green's function formatted to be compatible with ELEGANT longitudinal wake element.  
 
 The script ```test_Ng.py``` provides an example of longitudinal wake (monopole) computation along with its convolution with a given charge distribution (in the present case a Gaussian distribution)         
 
-The script ```pitz.py``` produces the Green's function and saved is as an ASTRA-compatible file for use in the &wakefield element.This program was employed to perform simulations reported in https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.044801 
+The script ```pitz.py``` produces the Green's function and saved it as an ASTRA-compatible file for use in the &wakefield element. This program was employed to perform simulations reported in https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.044801 
 
 ## Tests
 
@@ -23,7 +23,7 @@ executing the command line
 ```
 python test_Ng_long.py 
 ```
-should produce a plot displaying the Green's function  associated to the sum of the first four monopole modes. 
+should produce a plot displaying the Green's functions  associated with the sum of the first four monopole modes. 
 
 ## Contributors 
 
